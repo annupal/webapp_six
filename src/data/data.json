@@ -1,0 +1,27 @@
+{
+    "Homepage" : {
+        "title" : "Homepage",
+        "para" : "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not ..."
+    },
+    "Aboutpage" : {
+        "title" : "Aboutpage",
+        "para" : "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not ..."
+    },
+    "Services" : [
+        {
+            "image" : "img/portfolio/01-large.jpg",
+            "title" : "Heading 01",
+            "para" : "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not ..."
+        },
+        {
+            "image" : "img/portfolio/02-large.jpg",
+            "title" : "Heading 02",
+            "para" : "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not ..."
+        },
+        {
+            "image" : "img/portfolio/03-large.jpg",
+            "title" : "Heading 03",
+            "para" : "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development to fill empty spaces in a layout that does not ..."
+        }
+    ]
+}

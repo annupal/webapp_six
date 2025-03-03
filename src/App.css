@@ -1,0 +1,37 @@
+.App-logo {
+  height: 40px;
+  pointer-events: none;padding: 5px;
+  
+}
+.container{width: 900px;margin: auto;}
+
+.navigation-menu{
+  width: 100%;
+}
+.navigation-menu ul{
+  list-style-type: none;
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  border: 0;
+  margin-left: auto;
+}
+.navigation-menu li{
+
+  display: inline-block;
+  padding: 25px;
+}
+.navigation-menu li a{color: #fff;}
+
+
+.App-header {
+  background-color: #282c34;  
+  display: flex;  
+  color: white;
+  align-items: center;
+}
+
+.row{display: flex;gap: 20px;}
+.col-4{width: 33.3%;}
+.img-responsive{max-width: 100%;}
+.service{border-radius: 3px; border: 1px solid #ccc;padding: 10px;}
