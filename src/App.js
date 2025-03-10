@@ -1,6 +1,6 @@
 import logo from './logo-n.svg';
 import './App.css';
-import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom';
+import { HashRouter,Routes,Route,Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Homepage } from './pages/homepage';
@@ -18,7 +18,7 @@ useEffect(  () =>{
 
   return (
     <div className="container">
-<Router>
+<HashRouter>
       <div className='App-header'>
         <img src={logo} className='App-logo'/>
         <nav className='navigation-menu'>
@@ -35,7 +35,7 @@ useEffect(  () =>{
 <Route path='/about' element={<Aboutpage data={Pagedata.Aboutpage}/>}></Route>
 <Route path='/services' element={<Services data={Pagedata.Services}/>}></Route>
     </Routes>
-      </Router>
+      </HashRouter>
       
     </div>
   );
